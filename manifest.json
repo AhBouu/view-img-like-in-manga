@@ -1,0 +1,21 @@
+{
+    "name" : "Test",
+    "short_name": "Test",
+    "start_url": "/View-img-like-manga",
+    "background_color": "#FFFFFF",
+    "theme_color": "#FFFFFf",
+    "display": "standalone",
+    "icons": [
+        {
+            "src": "icon/icon192.png",
+            "sizes": "192x192",
+            "type": "image/png"
+        },
+        {
+            "src": "icon/icon512.png",
+            "sizes": "512x512",
+            "type": "image/png"
+        }
+    ]
+
+}
