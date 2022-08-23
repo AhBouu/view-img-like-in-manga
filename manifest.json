@@ -1,8 +1,8 @@
 {
     "name" : "Test",
     "short_name": "Test",
-    "start_url": "/",
-    "scope": ".",
+    "start_url": "/view-img-like-in-manga/",
+    "scope": "./",
     "background_color": "#FFFFFF",
     "theme_color": "#FFFFFf",
     "display": "standalone",
