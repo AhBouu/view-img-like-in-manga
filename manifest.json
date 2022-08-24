@@ -8,10 +8,20 @@
     "display": "standalone",
     "icons": [
         {
-            "src": "icon/icon192.png",
-            "sizes": "192x192",
+            "src": "icon/icon44.png",
+            "sizes": "44x44",
             "type": "image/png",
             "purpose": "any maskable"
+        },
+        {
+            "src": "icon/icon55.png",
+            "sizes": "55x55",
+            "type": "image/png"
+        },
+        {
+            "src": "icon/icon192.png",
+            "sizes": "192x192",
+            "type": "image/png"
         },
         {
             "src": "icon/icon512.png",
