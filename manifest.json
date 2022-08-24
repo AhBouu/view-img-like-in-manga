@@ -3,8 +3,8 @@
     "short_name": "Test",
     "start_url": "/view-img-like-in-manga/",
     "scope": ".",
-    "background_color": "#FFFFFF",
-    "theme_color": "#FFFFFf",
+    "background_color": "#000000",
+    "theme_color": "#000000",
     "display": "standalone",
     "icons": [
         {
