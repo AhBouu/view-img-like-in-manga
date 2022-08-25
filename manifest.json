@@ -1,6 +1,6 @@
 {
-    "name" : "Test",
-    "short_name": "Test",
+    "name" : "View Images Like In Manga",
+    "short_name": "VILIM",
     "start_url": "/view-img-like-in-manga/",
     "scope": ".",
     "background_color": "#000000",
