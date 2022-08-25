@@ -1,16 +1,16 @@
 body { background-color: black; }
 
 .sendImgFile {
-	    color: white;
+	color: white;
     font-family: monospace;
     font-size: 9vw;
-    box-shadow: 0 0 5px 5px #03a3ce;
+    border: 5px solid #03a3ce;
     display: flex;
     align-items: center;
     justify-content: center;
     position: relative;
     background-color: #0a073e;
-    bottom: 5px;
+    box-shadow: 0 0 2px 2px #03a3ce;
 	
 }
 
