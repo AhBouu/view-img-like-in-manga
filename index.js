@@ -1,21 +1,18 @@
 let input = document.querySelector('.sendImg')
 let imgDiv = document.querySelector('.img')
-let imgFile
-let imgFileLength 
 
-input.addEventListener('change', (e) => {
+input.addEventListener('change', (e, file) => {
     
         imgFileLength = e.target.files
 
-          for (i=0; i<imgFileLength.length ; i++) {
-              imgFile = URL.createObjectURL(imgFileLength[i])
-              LoadImg()
+          for (i=0; i<e.target.files.length ; i++) {
+              file = URL.createObjectURL(e.target.files[i])
+              LoadImg(file)
           }
 })
 
-
-LoadImg = () => {
+LoadImg = (filesValue) => {
 	imgDiv.innerHTML += `
-         <img src='${imgFile}' class='imgs'> </img>
+         <img src='${filesValue}' class='imgs'> </img>
 	`
 }

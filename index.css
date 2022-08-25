@@ -11,6 +11,7 @@ body { background-color: black; }
     position: relative;
     background-color: #0a073e;
     box-shadow: 0 0 2px 2px #03a3ce;
+    border-radius: 18px;
 	
 }
 
